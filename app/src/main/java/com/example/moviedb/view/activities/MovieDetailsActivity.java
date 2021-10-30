@@ -1,4 +1,4 @@
-package com.example.moviedb.view;
+package com.example.moviedb.view.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,10 +22,10 @@ public class MovieDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_details);
 
-        text_title = findViewById(R.id.text_title_moviedetails);
-        text_releasedate = findViewById(R.id.text_releasedate_moviedetails);
-        text_overview = findViewById(R.id.text_overview_moviedetails);
-        img_poster = findViewById(R.id.img_poster_moviedetails);
+        text_title = findViewById(R.id.lbl_title_movie_details_fragment);
+        text_releasedate = findViewById(R.id.lbl_releasedate_movie_details_fragment);
+        text_overview = findViewById(R.id.lbl_overview_movie_details_fragment);
+        img_poster = findViewById(R.id.img_poster_movie_details_fragment);
 
         Intent intent = getIntent();
 

@@ -12,6 +12,7 @@ import java.util.List;
 
 public class NowPlaying implements Parcelable {
 
+    public static Object ResultsDTO;
     private int page;
     private ArrayList<ResultsDTO> results;
     private DatesDTO dates;

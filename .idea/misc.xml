@@ -4,9 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/activity_main_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/activity_movie_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/activity_now_playing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/card_companies.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/card_now_playing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/card_up_coming.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/custom_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/fragment_movie_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/fragment_now_playing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/layout/fragment_upcoming.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Documents/UC/Semester3/Mobile Apps Development/MovieDB/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

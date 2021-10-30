@@ -1,4 +1,4 @@
-package com.example.moviedb.view;
+package com.example.moviedb.view.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
@@ -13,8 +13,6 @@ import com.example.moviedb.adapter.NowPlayingAdapter;
 import com.example.moviedb.model.NowPlaying;
 import com.example.moviedb.viewmodel.MovieViewModel;
 
-import java.util.ArrayList;
-
 public class NowPlayingActivity extends AppCompatActivity {
 
     private RecyclerView rv_nowplaying;
@@ -25,9 +23,9 @@ public class NowPlayingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_now_playing);
         rv_nowplaying = findViewById(R.id.rv_nowplaying);
-        view_model = new ViewModelProvider(NowPlayingActivity.this).get(MovieViewModel.class);
-        view_model.getNowPlaying();
-        view_model.getResultGetNowPlaying().observe(NowPlayingActivity.this, showNowPlaying);
+//        view_model = new ViewModelProvider(NowPlayingActivity.this).get(MovieViewModel.class);
+//        view_model.getNowPlaying();
+//        view_model.getResultGetNowPlaying().observe(NowPlayingActivity.this, showNowPlaying);
     }
 
     private Observer<NowPlaying> showNowPlaying = new Observer<NowPlaying>() {

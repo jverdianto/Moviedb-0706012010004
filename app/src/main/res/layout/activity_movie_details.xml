@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MovieDetailsActivity">
+    tools:context=".view.activities.MovieDetailsActivity">
 
     <TextView
-        android:id="@+id/text_title_moviedetails"
+        android:id="@+id/lbl_title_movie_details_fragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -19,11 +19,11 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/img_poster_moviedetails"
-        app:layout_constraintTop_toTopOf="@+id/img_poster_moviedetails" />
+        app:layout_constraintStart_toEndOf="@+id/img_poster_movie_details_fragment"
+        app:layout_constraintTop_toTopOf="@+id/img_poster_movie_details_fragment" />
 
     <ImageView
-        android:id="@+id/img_poster_moviedetails"
+        android:id="@+id/img_poster_movie_details_fragment"
         android:layout_width="109dp"
         android:layout_height="140dp"
         android:layout_marginStart="16dp"
@@ -33,19 +33,19 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/text_releasedate_moviedetails"
+        android:id="@+id/lbl_releasedate_movie_details_fragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="16dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/img_poster_moviedetails"
+        app:layout_constraintBottom_toBottomOf="@+id/img_poster_movie_details_fragment"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/img_poster_moviedetails" />
+        app:layout_constraintStart_toEndOf="@+id/img_poster_movie_details_fragment" />
 
     <TextView
-        android:id="@+id/text_overview_moviedetails"
+        android:id="@+id/lbl_overview_movie_details_fragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -56,5 +56,5 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_poster_moviedetails" />
+        app:layout_constraintTop_toBottomOf="@+id/img_poster_movie_details_fragment" />
 </androidx.constraintlayout.widget.ConstraintLayout>
